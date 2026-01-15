@@ -1,6 +1,6 @@
 // intlist.cpp
 // Implements class IntList
-// YOUR NAME(S), AND DATE
+// Dani  Arellano; 1/15/2026
 
 #include "intlist.h"
 
@@ -105,7 +105,7 @@ double IntList::average() const {
 
     while (curr != nullptr){
         total += curr->info;
-        n ++678;
+        n ++;
         curr = curr->next;
     }
     double average_val = static_cast<double>(total) / n;
@@ -149,7 +149,7 @@ int IntList::count() const {
 
    while(temp != nullptr){
     n ++;
-    temp = temp->next = ;
+    temp = temp->next;
    }
 
    return n;
